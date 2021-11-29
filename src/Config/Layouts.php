@@ -11,7 +11,7 @@ class Layouts extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $default = '';
+	public $default = 'Tatter\Layouts\Views\Layouts\Default';
 
     /**
      * Provides a fallback to the default layout
