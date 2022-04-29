@@ -9,15 +9,15 @@ final class ConfigTest extends TestCase
 {
     public function testUsesDefaultAsFallback()
     {
-    	$result = config('Layouts')->banana;
+        $result = config('Layouts')->banana;
 
-    	$this->assertSame('Tatter\Layouts\Views\Layouts\Default', $result);
+        $this->assertSame('Tatter\Layouts\Views\Layouts\Default', $result);
     }
 
     public function testSupportsRegistrars()
     {
-    	$result = config('Layouts')->foo;
+        $result = config('Layouts')->foo;
 
-    	$this->assertSame('bar', $result);
+        $this->assertSame('bar', $result);
     }
 }

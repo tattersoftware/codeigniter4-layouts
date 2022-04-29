@@ -6,12 +6,12 @@ use CodeIgniter\Config\BaseConfig;
 
 class Layouts extends BaseConfig
 {
-	/**
-	 * The default layout to use.
-	 *
-	 * @var string
-	 */
-	public $default = 'Tatter\Layouts\Views\Layouts\Default';
+    /**
+     * The default layout to use.
+     *
+     * @var string
+     */
+    public $default = 'Tatter\Layouts\Views\Layouts\Default';
 
     /**
      * Provides a fallback to the default layout
