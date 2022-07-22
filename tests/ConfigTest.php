@@ -7,14 +7,14 @@ use Tests\Support\TestCase;
  */
 final class ConfigTest extends TestCase
 {
-    public function testUsesDefaultAsFallback()
+    public function testUsesDefaultAsFallback(): void
     {
         $result = config('Layouts')->banana;
 
         $this->assertSame('Tatter\Layouts\Views\Layouts\Default', $result);
     }
 
-    public function testSupportsRegistrars()
+    public function testSupportsRegistrars(): void
     {
         $result = config('Layouts')->foo;
 
